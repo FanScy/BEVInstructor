@@ -1,4 +1,4 @@
-# BEVInstructor:Navigation Instruction Generation with BEV Perception and Large Language Models
+# Navigation Instruction Generation with BEV Perception and Large Language Models
 Contributed by Sheng Fan, Rui Liu, Wenguan Wang, and Yi Yang.
 
 ![](assets/overview.jpg)
@@ -14,7 +14,7 @@ After the preparation, you can start training with the following commands.
 ```
 bash  exps/finetune.sh  $LLAMA_PATH \
                         $LLAMA_ADAPTER_PATH  \ 
-                        $config/data/pretrain_r2r.json \
+                        config/data/pretrain_r2r.json \
                         results/r2r_bevinstructor
 ```
 
